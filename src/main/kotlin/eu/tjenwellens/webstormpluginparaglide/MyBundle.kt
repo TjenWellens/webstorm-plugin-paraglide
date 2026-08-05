@@ -1,4 +1,4 @@
-package com.github.tjenwellens.intellijpluginparaglide
+package eu.tjenwellens.webstormpluginparaglide
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
