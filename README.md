@@ -1,6 +1,6 @@
-# Paraglide Translations (beta)
+# Paraglide Translations plugin for Webstorm (beta)
 
-Helps managing paraglide (inlang) translations in code
+Helps managing paraglide (inlang) translations in the Webstorm code editor.
 
 [//]: # (![Build]&#40;https://github.com/TjenWellens/intellij-plugin-paraglide/workflows/Build/badge.svg&#41;)
 [//]: # ([![Version]&#40;https://img.shields.io/jetbrains/plugin/v/33378.svg&#41;]&#40;https://plugins.jetbrains.com/plugin/33378&#41;)
