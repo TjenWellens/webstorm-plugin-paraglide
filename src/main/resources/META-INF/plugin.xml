@@ -1,11 +1,31 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>eu.tjenwellens.webstormpluginparaglide</id>
-    <name>Webstorm Paraglide</name>
+    <name>Paraglide Translations</name>
     <vendor>tjenwellens</vendor>
     <description><![CDATA[
-        <p><b>intellij-plugin-paraglide</b> is a repository that provides a pure template to make it easier to create a new plugin project.</p>
-        <p>The main goal of this template is to speed up the setup phase of plugin development for both new and experienced developers by preconfiguring the project scaffold and CI, linking to the proper documentation pages, and keeping everything organized.</p>
+        <p><b>Paraglide Translations (beta)</b> helps managing paraglide (inlang) translations in code.</p>
+        <p><b>features:<b></p>
+        <ul>
+          <li>show translation inline</li>
+        </ul>
+        <p><b>technical limitations:</b> (because beta)</p>
+        <ul>
+          <li>poor performance: scans all json files every time a js/ts file opens, no caching yet</li>
+          <li>files already open don't get translation inline (must reopen file to load)</li>
+          <li>looks for `m.xxxx()` in js/ts files</li>
+          <li>only scans for json files in folders 'translate' 'messages' 'translations'</li>
+          <li>default locale hardcoded 'en'</li>
+        </ul>
+        <p><b>someday/maybe features:</b></p>
+        <ul>
+          <li>rename keys</li>
+          <li>alt-enter move string to translations</li>
+          <li>detect unused keys</li>
+          <li>improved performance with caching</li>
+          <li>read paraglide config file(s) to find json files</li>
+          <li>read paraglide config file(s) to decide default locale, etc</li>
+        </ul>
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
