@@ -1,7 +1,7 @@
 import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 plugins {
-    kotlin("jvm") version "2.1.20"
+    kotlin("jvm") version "2.4.10"
     id("org.jetbrains.intellij.platform")
     id("org.jetbrains.changelog")
 }
